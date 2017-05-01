@@ -1,0 +1,46 @@
+.app{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.app .row{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.app .leftbar{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 382px;
+    overflow: hidden;
+}
+.app .leftbar .items{
+    overflow: auto;
+    height: 327px;
+}
+.app .leftbar .items .list-group-item .label {
+    float: right;
+    display: none;
+    cursor: pointer;
+}
+.app .leftbar .items .list-group-item:hover .label{
+    display: inline-block;
+}
+.app .leftbar .list-group-item:first-child {
+    border-radius: 0;
+    border-top:0;
+}
+.app .leftbar .list-group-item{
+    border-left:none;
+}
+.app .leftbar .list-group-item:last-child {
+    margin-bottom: 0;
+    border-radius: 0;
+    border-bottom-left-radius: 4px;
+    margin-bottom: -1px;
+}
+.app .main{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.app .main .panel-body{
+    border-radius: 0;
+}

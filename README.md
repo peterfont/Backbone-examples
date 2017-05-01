@@ -9,3 +9,9 @@ Backbone.js的实例
   - 显示已完成事项数量
 2. Contacts:通讯录管理
   - Bakcbone.js + require.js + bootstrap2 通讯录管理
+  - 添加通讯记录
+  - 删除通讯记录
+  - 编辑通讯记录
+  - 搜索通讯记录
+  - 批量删除通讯记录
+ 
